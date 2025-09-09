@@ -1,0 +1,14 @@
+services:
+  app:
+    build:
+      context: .
+      target: dev
+    ports:
+      - 3000:3000
+    develop:
+      watch:
+        - path: ./src
+          action: sync
+          target: /usr/local/app/src
+        - path: ./package-lock.json
+          action: rebuild
