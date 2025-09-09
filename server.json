@@ -1,0 +1,10 @@
+{
+  "name": "io.github.dockersamples/mcp-docker-release-information", 
+  "packages": [
+    {
+      "registry_type": "oci",
+      "identifier": "dockersamples/mcp-docker-release-information",
+      "version": "1.0.0"
+    }
+  ]
+}
