@@ -2,11 +2,20 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
   "name": "io.github.dockersamples/mcp-docker-release-information", 
   "description": "MCP server providing Docker Desktop release notes and security information.",
+  "status": "active",
+  "repository": {
+    "source": "github",
+    "url": "https://github.com/dockersamples/mcp-docker-release-information"
+  },
+  "version": "1.0.0",
   "packages": [
     {
       "registry_type": "oci",
       "identifier": "dockersamples/mcp-docker-release-information",
-      "version": "1.0.0"
+      "version": "1.0.0",
+      "transport": {
+        "type": "stdio"
+      }
     }
   ]
 }
